@@ -1,0 +1,48 @@
+.OrderOnline {
+  padding: 4rem 0;
+}
+.Dekorasi {
+  background-color: #3b7339;
+  width: 50%;
+  height: 3rem;
+  margin-top: 2em;
+  border-radius: 0 2px 2px 0;
+}
+.MainMenu {
+  padding: 2.5rem;
+  border-left: 0.8px solid #b1aeae;
+  border-right: 0.8px solid #b1aeae;
+}
+.Judul {
+  color: rgb(146, 145, 145);
+}
+h3.Judul {
+  text-transform: uppercase;
+}
+
+.Pilihan,
+.LinkPilihan {
+    color: #b1aeae;
+  margin-left: 2rem;
+  padding: 0 1rem;
+  text-align: right;
+  border-bottom: 0.8px solid #b1aeae;
+}
+.LinkPilihan {
+  border-bottom: transparent;
+  padding: 0;
+  text-align: right;
+}
+.Link {
+  border-bottom: transparent;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+.Link:hover {
+  background: #eee;
+}
+.Link:active {
+  color: #f25b04;
+  background: #eee;
+  border-left: 0.2rem solid #f25b04;
+}

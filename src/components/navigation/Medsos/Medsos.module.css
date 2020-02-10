@@ -1,0 +1,13 @@
+.Medsos{
+    display: flex;
+    align-items:  center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.Medsos a{
+    margin-right: 15px;
+}
+.Medsos i{
+    color:#3B7339;
+    font-size: 1.2rem;
+}

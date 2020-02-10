@@ -1,0 +1,13 @@
+.Dekorasi {
+  background-color: #3b7339;
+  width: 50%;
+  height: 3rem;
+  margin-top: 2em;
+  border-radius: 0 2px 2px 0;
+}
+
+.Contact {
+  border: 1px solid #b1aeae;
+  align-items: center;
+  height: auto;
+}

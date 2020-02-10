@@ -1,0 +1,36 @@
+.Menu {
+  color: #f25b04;
+  padding: 2rem 0;
+}
+.Menu h1 {
+  font-family: "Courgette", cursive;
+}
+.Menu h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.Menu hr {
+  /* background: #f25b04; */
+  border: 1px solid #f25b04;
+}
+.Contain {
+  padding: 50px;
+  margin: 0 80px;
+}
+.Dekorasi {
+  background-color: #3b7339;
+  width: 50%;
+  height: 3rem;
+  margin-top: 2em;
+  border-radius: 0 2px 2px 0;
+}
+.card {
+  box-shadow: 2px 2px 2px 10px rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (max-width: 575.98px) {
+  .Contain {
+    padding: 0;
+    margin: 0 20px;
+  }
+}

@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
 
-function App() {
+import Home from "./containers/Home/Home";
+import Menu from "./containers/Menu/Menu";
+import OrderOnline from "./containers/OrderOnline/OrderOnline";
+import AboutUs from "./containers/AboutUs/AboutUs";
+import Checkout from "./containers/Checkout/Checkout";
+import Default from "./containers/Default/Default";
+import "./App.css";
+
+import Layout from "./hoc/Layout/Layout";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Layout>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/menu" component={Menu} />
+          <Route path="/order-online" component={OrderOnline} />
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/checkout" component={Checkout} />
+          <Route component={Default} />
+        </Switch>
+      </Layout>
+    </React.Fragment>
   );
-}
+};
 
 export default App;

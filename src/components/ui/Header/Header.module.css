@@ -1,0 +1,33 @@
+.Header{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+.Header::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image : linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+    bottom: 0;
+    left: 0;
+}
+
+.Container{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: relative;
+}
+.Home{
+    background-image: url('../../../assets/img/HomeHeader.jpg');
+}
+.About{
+    background-image: url('../../../assets/img/About-usHeader.jpg');
+}
+
+@media (max-width: 559.99px){
+    .Header{
+        height: 90vh;
+    }
+}

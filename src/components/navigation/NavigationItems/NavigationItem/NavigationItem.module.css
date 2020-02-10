@@ -1,0 +1,27 @@
+.NavigationItem{
+    height: 100%;
+    align-self: center;
+    margin: 0 10px;
+}
+.NavigationItem a{
+    text-decoration: none;
+    height: 100%;
+    color: #3B7339;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active{
+    color: #83BF73;
+    text-decoration: none;
+}
+
+@media (max-width : 713.99px){
+    .NavigationItem a{
+        font-size: 14px;
+    }
+}
+@media (max-width : 671.99px){
+    .NavigationItem a{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,32 @@
+.Button {
+  background-color: transparent;
+  border: 1px solid #3b7239;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px 30px;
+  margin: 0 10px;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+}
+.Button:hover {
+  background-color: #3b7239;
+  color: white;
+  text-decoration: none;
+}
+.Button:disabled {
+  color: white;
+  border: 1px solid #ccc;
+  background: #ccc;
+  cursor: not-allowed;
+}
+.Success {
+  color: #5c9210;
+}
+@media (max-width: 513.99px) {
+  .Button {
+    margin: 8px 0;
+  }
+}

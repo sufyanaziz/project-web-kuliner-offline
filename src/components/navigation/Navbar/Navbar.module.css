@@ -1,0 +1,37 @@
+.Navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 50;
+    padding: 0 40px;
+    top: 0;
+    left: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+}
+.Logo{
+    flex: 1;
+}
+.Desktop{
+    flex: 3;
+}
+.Sosial{
+    flex: 1;
+}
+
+@media (max-width : 660px){
+    .Logo{
+        float: left;
+        width: 100%;
+    }
+    .Desktop{
+        display: none;
+    }
+    .Sosial{
+        display: none;
+    }
+}

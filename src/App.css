@@ -1,22 +1,58 @@
-.App {
+.btn-modal {
+  background: transparent;
+  border: 1px solid #f25b04 !important;
+  border-radius: 100% !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+  color: rgb(146, 145, 145) !important;
+  text-transform: uppercase;
+  width: 38px;
   text-align: center;
+  height: 38px;
 }
-
-.App-logo {
-  height: 40vmin;
+.btn-modal:hover {
+  cursor: pointer;
+  background: #f25b04;
+  color: white !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-order {
+  background: transparent;
+  border-radius: 2px !important;
+  color: #f25b04 !important;
+  border: 1px solid #f25b04 !important;
 }
-
-.App-link {
-  color: #09d3ac;
+.btn-order:hover {
+  cursor: pointer;
+  background: #f25b04 !important;
+  color: white !important;
+  border-color: transparent;
+}
+.btn-invalid {
+  cursor: not-allowed;
+  background: #ccc;
+  color: #ccc;
+  border-color: #ccc !important;
+}
+.btn-cancel {
+  background: transparent;
+  border-radius: 2px !important;
+  color: #3b7339 !important;
+  border: 1px solid #3b7339 !important;
+}
+.btn-cancel:hover {
+  cursor: pointer;
+  background: #3b7339 !important;
+  color: white !important;
+  border-color: transparent;
+}
+.btn-hitung {
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #b1aeae;
+  color: #b1aeae;
+  font-size: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  margin: 0.1rem 0;
 }

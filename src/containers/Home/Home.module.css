@@ -1,0 +1,64 @@
+.Home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.Container{
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 20px;
+}
+
+.ContainerTitle{
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+.Home h1{
+    font-family: 'Courgette', cursive;
+    font-size : 5rem;
+    color : white;
+    margin: 0;
+    margin-bottom: 10px ;
+}
+.Home p{
+    letter-spacing: 0.4rem;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 40px ;
+}
+.Home a:hover{
+    text-decoration: none;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Home .thumbnail{
+    opacity: 0;
+}
+
+@media (max-width:562.99px){
+    .Home h1{
+        font-size: 3.5rem;
+    }
+    .Home p{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:513.99px){
+    .Home p{
+        font-size: 1.4rem;
+        letter-spacing: 0.3rem;
+    }
+    .Button{
+        flex-direction: column;
+    }
+}
