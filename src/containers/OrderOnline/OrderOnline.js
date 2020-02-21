@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Order from "../../components/Order/Order";
 import classes from "./OrderOnline.module.css";
@@ -9,6 +9,9 @@ import Modal from "../../components/ui/Modal/Modal";
 import Cart from "../../components/Cart/Cart";
 
 const OrderOnline = React.memo(props => {
+  useEffect(() => {
+    document.title = "Order";
+  });
   return (
     <React.Fragment>
       <Wrapper>

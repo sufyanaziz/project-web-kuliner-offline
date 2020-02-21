@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import classes from "./Menu.module.css";
 import ListMenu from "../../components/ListMenu/ListMenu";
@@ -6,6 +6,9 @@ import Footer from "../../components/ui/Footer/Footer";
 import { MenuConsumer } from "../../store/context";
 
 const Menu = React.memo(props => {
+  useEffect(() => {
+    document.title = "Menu";
+  });
   return (
     <React.Fragment>
       <Wrapper>

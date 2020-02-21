@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MenuConsumer } from "../../store/context";
 import PaymentEmpty from "../../components/Payment/PaymentEmpty";
 import Payment from "../../components/Payment/Payment";
@@ -9,7 +9,9 @@ import Footer from "../../components/ui/Footer/Footer";
 import classes from "./Checkout.module.css";
 
 const Checkout = React.memo(props => {
-  console.log(props);
+  useEffect(() => {
+    document.title = "Checkout";
+  });
   return (
     <React.Fragment>
       <MenuConsumer>

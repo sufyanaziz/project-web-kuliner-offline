@@ -209,4 +209,4 @@ class MenuProvider extends Component {
 
 const MenuConsumer = MenuContext.Consumer;
 
-export { MenuProvider, MenuConsumer };
+export { MenuProvider, MenuConsumer, MenuContext };
